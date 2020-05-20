@@ -22,6 +22,7 @@ nav {
   justify-content: space-around;
   margin-top: 20px;
 }
+
 .tabs ul {
   display: flex;
   flex-direction: row;
@@ -30,6 +31,8 @@ nav {
 }
 .tabs ul li {
   margin-left: 20px;
+  padding: 5px;
+  transition: 400ms all;
 }
 .tabs ul li:first-child {
   margin-left: 0;
@@ -51,6 +54,8 @@ nav {
   height: 400px;
   margin-left: 50px;
   background-color: var(--cardsBacground);
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px 4px #888888;
 }
 .container {
   margin-top: 100px;
@@ -83,4 +88,30 @@ section div i {
 .cards a:hover {
   color: var(--textColor);
   background-color: #f7a072;
+}
+.tabs ul li:hover {
+  color: var(--bodyBackground);
+  background-color: #f7a072;
+}
+.cards a {
+  border-radius: 4px;
+}
+.footerInfo {
+  width: 900px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 240px;
+  margin-top: 30px;
+}
+.footerInfo p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.footerInfo span {
+  background-color: #f7a072;
+  color: var(--bodyBackground);
+  font-size: 15px;
 }
