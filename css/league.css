@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DM Mono", monospace;
+  list-style: none;
+  text-decoration: none;
+  color: var(--textColor);
+}
+body {
+  background-color: var(--bodyBackground);
+}
+:root {
+  --bodyBackground: #eff0d1;
+  --textColor: #262730;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.leagueTabs ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.leagueTabs ul li {
+  margin-left: 20px;
+  padding: 5px;
+  transition: 400ms all;
+}
+.leagueTabs ul li:first-child {
+  margin-left: 0;
+}
+.leagueTabs ul li:hover {
+  color: var(--bodyBackground);
+  background-color: #f7a072;
+}
+.leagueContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leagueName,
+.teamsNumber,
+.matchType {
+  display: flex;
+  flex-direction: row;
+}
+.matchType form {
+  display: flex;
+  flex-direction: row;
+}

@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create League || Tournament Creator</title>
+    <link rel="stylesheet" href="/css/league.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="/html/index.html"> <h1>Tournament Creator</h1></a>
-        <div class="tabs">
+        <div class="leagueTabs">
           <ul>
             <li><a href="#">Send Feedback</a></li>
             <li><a href="#">Contribute</a></li>
@@ -17,5 +18,24 @@
         </div>
       </nav>
     </header>
+    <section class="leagueContainer">
+      <div class="leagueName">
+        <h3>League Name</h3>
+        <input type="text" />
+      </div>
+      <div class="teamsNumber">
+        <h3>Number of Teams</h3>
+        <input type="text" />
+      </div>
+      <div class="matchType">
+        <h3>Match Type</h3>
+
+        <form action="">          
+          <input type="radio" id="odd" name="matchType" value="odd">
+          <label for="male">Odd</label><br>
+          <input type="radio" id="even" name="matchType" value="even">
+          <label for="female">Even</label><br>         
+      </div>
+    </section>
   </body>
 </html>
