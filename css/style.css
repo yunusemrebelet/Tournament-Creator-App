@@ -59,7 +59,11 @@ nav {
   margin-left: 50px;
   background-color: var(--cardsBacground);
   border-radius: 5px;
-  box-shadow: 4px 4px 2px 4px #888888;
+  box-shadow: 13px 22px 10px -7px #888888;
+  transition: 400ms ease;
+}
+.cards div:hover {
+  scale: 1.05;
 }
 .container {
   margin-top: 70px;
@@ -76,7 +80,7 @@ section div i {
   text-align: center;
   background-color: #474448;
   color: var(--bodyBackground);
-  transition: 400ms all;
+  transition: 400ms ease;
 }
 .cards p,
 .cards h3,

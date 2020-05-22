@@ -19,22 +19,36 @@
       </nav>
     </header>
     <section class="leagueContainer">
-      <div class="leagueName">
-        <h3>League Name</h3>
-        <input type="text" />
+      <div class="buttonAndContent">
+        <div class="labelsAndInputs">
+          <div class="lLabels">
+            <h4>League Name</h4>
+            <h4>Numbers Of Teams</h4>
+            <h4>League Name</h4>
+          </div>
+          <div class="lInputs">
+            <input type="text" name="" id="" />
+            <input type="text" name="" id="" />
+            <form class="radios">
+              <input type="radio" name="matchType" id="odd" />
+              <label for="odd">Odd</label>
+              <input type="radio" name="matchType" id="even" />
+              <label for="even">Even</label>
+            </form>
+          </div>
+        </div>
+        <div class="leagueButton">
+          <a onclick="addTeams()" class="lAddTeams">Add Teams</a>
+        </div>
       </div>
-      <div class="teamsNumber">
-        <h3>Number of Teams</h3>
-        <input type="text" />
-      </div>
-      <div class="matchType">
-        <h3>Match Type</h3>
-
-        <form action="">          
-          <input type="radio" id="odd" name="matchType" value="odd">
-          <label for="male">Odd</label><br>
-          <input type="radio" id="even" name="matchType" value="even">
-          <label for="female">Even</label><br>         
+    </section>
+    <section class="teamNames">
+      <div class="teamListContainer">
+        <div class="teamsAndInputs">
+          <div class="teamsLabel"></div>
+          <div class="teamsInput"></div>
+        </div>
+        <div class="createLeagueButton"></div>
       </div>
     </section>
   </body>
